@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(255, 238, 0, 0.274); 
+ }
+/*#e9d7a6; */
+
+.site-heading {
+    background-color: #333;
+    color: #f4faa7;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.ro{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 5px 5px 5px 5px;
+    color : rgb(255, 254, 184);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 275px;
+    height: 230px;
+}
+.r{
+    width: 100%;
+}
+.Art{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+
+}
+.p{
+    
+    line-height: 3;
+    margin-top:10px;
+    margin-left:10%;
+    margin-right:10%;
+    font-size: larger;
+}
+.Art{
+    margin-top:10%;
+    font-size: x-large;
+}
+.b{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;   
+}
+.m{
+    width: 70%;
+    margin-top: 10%;
+
+}
+    
+h1 {
+
+    margin: 0;
+    font-size: 2em;
+}
+
+span {
+    color: #228e9c;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu li {
+    margin: 0 10px;
+    color: aquamarine
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #f4faa7;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+article {
+    background-color: #eef2f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: scale(1.05);
+}
+
+article a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+header {
+    background-color: #0c7081ea;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    padding: 5px;
+    text-align: justify;
+    margin: 0;
+}

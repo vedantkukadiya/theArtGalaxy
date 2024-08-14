@@ -1,0 +1,107 @@
+<style>
+	td{
+		font-size: larger;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+</style>
+<script>
+	function vali()
+	{
+		var name,mobile,email;
+		
+		name=frm.nm.value;
+		mobile=frm.mb.value;
+		email=frm.em.value;
+		
+		p1=/^[a-z A-Z]+$/;
+		p2=/^[0-9]+$/;
+		p3=/^[a-z0-9.@]+$/;
+		
+		if(name.match(p1))
+		{
+		}
+		else
+		{
+			alert("enter your name ")
+		}
+		
+		if(mobile.match(p2))
+		{
+		}
+		else
+		{
+			alert("enter number ")
+		}
+		
+		if(email.match(p3))
+		{
+		}
+		else
+		{
+			alert("enter email ")
+		}
+	}
+</script>
+
+
+<form name="frm">
+	<table border="1" align="center" height="80%" width="50%">
+		
+		<tr>
+			<td> name:</td>
+			<td><input type="text" name="nm" id="nm"/></td>
+		</tr>
+		<tr>
+			<td> address:</td>
+			<td><textarea name="ta" id="ta"/> </textarea></td>
+		</tr>
+		<tr>
+			<td> DOB:</td>
+			<td><input type="date" name="dt" id="dt"/></td>
+		</tr>
+		<tr>
+			<td> mobile:</td>
+			<td><input type="text" name="mb" id="mb" maxlength="10"/></td>
+		</tr>
+		<tr>
+			<td> email:</td>
+			<td><input type="email" name="em" id="em"/></td>
+		</tr>
+		<tr>
+			<td> gender:</td>
+			<td><input type="radio" name="g"/>male <input type="radio" name="g"/>female</td>
+		</tr>
+		<tr>
+			<td> state:</td>
+			<td><select>
+				<option>select state </option>
+				<option>bahvngar </option>
+				<option>rajkot </option>
+				<option>surat </option>
+				<option>jamngar</option>
+				<option>diu</option>
+				<option>goa</option>
+			</select></td>
+		</tr>
+		<tr>
+            <th colspan="2">
+                <input type="submit" name="s" id="s"  onclick="vali()"/>
+                <input type="reset" name="r" id="r" />
+				<button><a class="menu_link" href="frist.html">HOME</a></button>
+			 </th>
+        </tr>
+		
+		</table>
+		</form>
+		
+		
+		
+	
+		
+		
+		
+		
+	
+		
